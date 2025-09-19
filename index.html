@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeliveryCellSP - Desbloqueio Remoto de Celulares</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="DeliveryCellSP: Desbloqueio remoto e seguro de celulares. Soluções para conta Google, conta Mi, senha de iPhone e mais. Atendimento rápido via WhatsApp em todo o Brasil.">
+    <meta name="keywords" content="desbloqueio de celular, desbloqueio remoto, conta google, frp, conta mi, xiaomi, iphone passcode, mdm, deliverycellsp, são paulo">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📱</text></svg>">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Google Analytics (Substitua pelo seu código) -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=SUA_ID_AQUI"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'SUA_ID_AQUI');
+    </script>
+    -->
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.5); 
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        .glass-card:hover {
+            border-color: rgba(99, 102, 241, 0.7); 
+            transform: translateY(-8px);
+            box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+        }
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-200">
+
+    <!-- Cabeçalho -->
+    <header class="bg-slate-900/70 backdrop-blur-lg sticky top-0 z-50 border-b border-slate-800">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-2">
+                <svg class="w-8 h-8 text-indigo-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 18h.01M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"></path></svg>
+                <span class="text-2xl font-bold text-indigo-400">DeliveryCell<span class="text-white">SP</span></span>
+            </a>
+            <nav class="hidden md:flex space-x-6 items-center text-sm font-medium text-slate-300">
+                <a href="#how-it-works" class="hover:text-white transition-colors">Como Funciona</a>
+                <a href="#services" class="hover:text-white transition-colors">Serviços</a>
+                <a href="#tools" class="hover:text-white transition-colors">Licenças</a>
+                <a href="#extra-services" class="hover:text-white transition-colors">Serviços Extras</a>
+                <a href="#testimonials" class="hover:text-white transition-colors">Depoimentos</a>
+                <a href="#faq" class="hover:text-white transition-colors">Dúvidas</a>
+                <a href="#contact" class="bg-indigo-600 hover:bg-indigo-500 transition-all text-white font-semibold py-2 px-5 rounded-lg">Fale Conosco</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-white">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+        <!-- Menu Mobile -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
+            <a href="#how-it-works" class="block py-2 hover:text-indigo-400 transition-colors">Como Funciona</a>
+            <a href="#services" class="block py-2 hover:text-indigo-400 transition-colors">Serviços</a>
+            <a href="#tools" class="block py-2 hover:text-indigo-400 transition-colors">Licenças</a>
+            <a href="#extra-services" class="block py-2 hover:text-indigo-400 transition-colors">Serviços Extras</a>
+            <a href="#testimonials" class="block py-2 hover:text-indigo-400 transition-colors">Depoimentos</a>
+            <a href="#faq" class="block py-2 hover:text-indigo-400 transition-colors">Dúvidas</a>
+            <a href="#contact" class="block mt-2 bg-indigo-600 hover:bg-indigo-700 transition-all text-white font-medium py-2 px-4 rounded-lg text-center">Fale Conosco</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Principal (Hero) -->
+        <section class="gradient-bg py-28 sm:py-40">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl md:text-6xl font-bold mb-4 leading-tight text-white">Desbloqueio de Celular <br class="hidden sm:block"> 100% Remoto e Seguro</h2>
+                <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-10">Soluções rápidas e definitivas para iPhones, Samsung, Xiaomi e mais. Recupere o acesso ao seu aparelho sem sair de casa.</p>
+                <a href="https://wa.me/5511939432371?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." target="_blank" class="bg-green-500 hover:bg-green-600 transition-all text-white font-bold py-4 px-8 rounded-full text-lg inline-flex items-center gap-2 shadow-lg shadow-green-500/30">
+                    <i data-lucide="smartphone-message" class="w-6 h-6"></i>
+                    Iniciar Atendimento via WhatsApp
+                </a>
+            </div>
+        </section>
+        
+        <!-- Seção Como Funciona -->
+        <section id="how-it-works" class="py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h3 class="text-3xl md:text-4xl font-bold text-white">Como o Desbloqueio Remoto Funciona?</h3>
+                    <p class="text-slate-400 mt-3 max-w-2xl mx-auto">Um processo simples, transparente e seguro em 3 passos.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                    <div class="text-center p-6">
+                        <div class="bg-indigo-500/20 p-5 rounded-full mb-6 inline-block">
+                           <i data-lucide="message-circle" class="w-12 h-12 text-indigo-400"></i>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-2 text-white">1. Diagnóstico Gratuito</h4>
+                        <p class="text-slate-400">Você entra em contato via WhatsApp, explica seu problema e enviamos um orçamento sem compromisso.</p>
+                    </div>
+                    <div class="text-center p-6">
+                        <div class="bg-indigo-500/20 p-5 rounded-full mb-6 inline-block">
+                           <i data-lucide="laptop-2" class="w-12 h-12 text-indigo-400"></i>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-2 text-white">2. Execução Remota</h4>
+                        <p class="text-slate-400">Com sua permissão, realizamos o procedimento de forma 100% remota, via IMEI ou acessando seu computador.</p>
+                    </div>
+                    <div class="text-center p-6">
+                        <div class="bg-indigo-500/20 p-5 rounded-full mb-6 inline-block">
+                           <i data-lucide="credit-card" class="w-12 h-12 text-indigo-400"></i>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-2 text-white">3. Confirmação e Pagamento</h4>
+                        <p class="text-slate-400">Você testa o aparelho, confirma que está tudo perfeito e só então realiza o pagamento. Simples assim!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Seção de Serviços -->
+        <section id="services" class="py-24 bg-slate-950">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h3 class="text-3xl md:text-4xl font-bold text-white">Nossos Serviços Especializados</h3>
+                    <p class="text-slate-400 mt-3 max-w-2xl mx-auto">Tecnologia de ponta para resolver os mais diversos tipos de bloqueios em smartphones.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <div class="glass-card rounded-2xl p-8 flex flex-col text-center"><div class="bg-indigo-500/20 p-4 rounded-full mb-5 self-center"><i data-lucide="shield-check" class="w-10 h-10 text-indigo-400"></i></div><h4 class="text-xl font-semibold mb-3 text-white">Conta Google (FRP)</h4><p class="text-slate-400 flex-grow">Para Samsung, Xiaomi, Motorola e outras marcas. Remoção via IMEI ou acesso remoto.</p><div class="mt-6 pt-4 border-t border-slate-700/50"><p class="text-indigo-300 text-2xl font-bold">A partir de R$49,90</p></div></div>
+                    <div class="glass-card rounded-2xl p-8 flex flex-col text-center"><div class="bg-indigo-500/20 p-4 rounded-full mb-5 self-center"><i data-lucide="cloud-off" class="w-10 h-10 text-indigo-400"></i></div><h4 class="text-xl font-semibold mb-3 text-white">Xiaomi (Conta Mi)</h4><p class="text-slate-400 flex-grow">Desbloqueio definitivo de conta Mi (Mi Cloud) para todos os modelos Xiaomi.</p><div class="mt-6 pt-4 border-t border-slate-700/50"><p class="text-indigo-300 text-2xl font-bold">A partir de R$49,90</p></div></div>
+                    <div class="glass-card rounded-2xl p-8 flex flex-col text-center"><div class="bg-indigo-500/20 p-4 rounded-full mb-5 self-center"><i data-lucide="building" class="w-10 h-10 text-indigo-400"></i></div><h4 class="text-xl font-semibold mb-3 text-white">Remoção de MDM</h4><p class="text-slate-400 flex-grow">Removemos o gerenciamento corporativo (MDM) de iPhones e iPads.</p><div class="mt-6 pt-4 border-t border-slate-700/50"><p class="text-indigo-300 text-2xl font-bold">A partir de R$59,90</p></div></div>
+                    
+                    <!-- Card: iPhone Passcode Antigo -->
+                    <div class="glass-card rounded-2xl p-8 flex flex-col text-center">
+                        <div class="bg-gray-500/20 p-4 rounded-full mb-5 self-center">
+                            <svg class="w-10 h-10 text-slate-300" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Apple</title><path fill="currentColor" d="M12.15,2.57c-0.12,0-0.24,0-0.36,0C9.1,2.7,6.81,4.6,5.63,7.29c-1.47,3.37-0.61,7.34,2.24,9.54 c1.36,1.05,2.94,1.63,4.61,1.63c0.11,0,0.22,0,0.33,0c2.4-0.13,4.5-1.63,5.83-3.53c-2.32-1.35-3.83-3.8-3.83-6.53 c0-0.08,0-0.16,0-0.24C14.88,5.92,13.78,4.1,12.15,2.57 M15.39,0.59c1.57,1.6,2.44,3.77,2.44,5.93c0,0.28-0.02,0.55-0.05,0.82 c-0.1,0.92,0.21,1.83,0.84,2.54c0.1,0.11,0.21,0.21,0.32,0.32c0.75,0.72,1.21,1.72,1.21,2.78c0,2.33-1.89,4.22-4.22,4.22 c-0.12,0-0.24,0-0.35-0.01c-1.7-0.1-3.26-0.85-4.47-2.1c-1.28-1.34-2.02-3.04-2.11-4.88c-0.15-3.13,1.54-5.96,4.27-7.23 C13.73,1.17,14.54,0.73,15.39,0.59"/></svg>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-3 text-white">iPhone (Passcode 6s ao X)</h4>
+                        <p class="text-slate-400 flex-grow">Desbloqueio de senha de "bolinhas" para os modelos 6s, 7/7+, 8/8+ e X.</p>
+                         <div class="mt-6 pt-4 border-t border-slate-700/50">
+                            <p class="text-indigo-300 text-2xl font-bold">R$60 - R$99,90</p>
+                        </div>
+                    </div>
+
+                    <!-- Card: iPhone Passcode Recente -->
+                    <div class="glass-card rounded-2xl p-8 flex flex-col text-center">
+                        <div class="bg-gray-500/20 p-4 rounded-full mb-5 self-center">
+                           <svg class="w-10 h-10 text-slate-300" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Apple</title><path fill="currentColor" d="M12.15,2.57c-0.12,0-0.24,0-0.36,0C9.1,2.7,6.81,4.6,5.63,7.29c-1.47,3.37-0.61,7.34,2.24,9.54 c1.36,1.05,2.94,1.63,4.61,1.63c0.11,0,0.22,0,0.33,0c2.4-0.13,4.5-1.63,5.83-3.53c-2.32-1.35-3.83-3.8-3.83-6.53 c0-0.08,0-0.16,0-0.24C14.88,5.92,13.78,4.1,12.15,2.57 M15.39,0.59c1.57,1.6,2.44,3.77,2.44,5.93c0,0.28-0.02,0.55-0.05,0.82 c-0.1,0.92,0.21,1.83,0.84,2.54c0.1,0.11,0.21,0.21,0.32,0.32c0.75,0.72,1.21,1.72,1.21,2.78c0,2.33-1.89,4.22-4.22,4.22 c-0.12,0-0.24,0-0.35-0.01c-1.7-0.1-3.26-0.85-4.47-2.1c-1.28-1.34-2.02-3.04-2.11-4.88c-0.15-3.13,1.54-5.96,4.27-7.23 C13.73,1.17,14.54,0.73,15.39,0.59"/></svg>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-3 text-white">iPhone (Passcode XS e Sup.)</h4>
+                        <p class="text-slate-400 flex-grow">Para modelos do iPhone XS até os mais recentes. Serviço sujeito a disponibilidade.</p>
+                         <div class="mt-6 pt-4 border-t border-slate-700/50">
+                            <p class="text-indigo-300 text-2xl font-bold">Valor a combinar</p>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card rounded-2xl p-8 flex flex-col text-center"><div class="bg-indigo-500/20 p-4 rounded-full mb-5 self-center"><i data-lucide="box" class="w-10 h-10 text-indigo-400"></i></div><h4 class="text-xl font-semibold mb-3 text-white">Outros Desbloqueios</h4><p class="text-slate-400 flex-grow">Trabalha com Nokia, LG ou outras marcas? Entre em contato para um orçamento personalizado.</p><div class="mt-6 pt-4 border-t border-slate-700/50"><p class="text-indigo-300 text-2xl font-bold">Sob Consulta</p></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Venda de Ferramentas -->
+        <section id="tools" class="py-24"><div class="container mx-auto px-6"><div class="text-center mb-16"><h3 class="text-3xl md:text-4xl font-bold text-white">Venda de Licenças Digitais</h3><p class="text-slate-400 mt-3">Ativação rápida das melhores ferramentas para técnicos e lojistas.</p></div><div class="flex flex-wrap justify-center gap-8"><div class="glass-card rounded-2xl p-8 w-full sm:w-80 text-center flex flex-col"><h4 class="text-2xl font-bold text-amber-400">UnlockTool</h4><p class="text-slate-300 my-4 flex-grow">Licenças de 3, 6 ou 12 meses. A ferramenta mais completa do mercado, com ativação em minutos.</p><a href="https://wa.me/5511939432371?text=Olá!%20Tenho%20interesse%20na%20licença%20da%20UnlockTool." target="_blank" class="bg-amber-500 w-full hover:bg-amber-600 text-slate-900 font-bold py-3 px-6 rounded-lg inline-block transition-colors mt-2">Comprar Licença</a></div><div class="glass-card rounded-2xl p-8 w-full sm:w-80 text-center flex flex-col"><h4 class="text-2xl font-bold text-rose-500">Chimera Tool</h4><p class="text-slate-300 my-4 flex-grow">Licenças Pro e Premium. A ferramenta essencial para serviços avançados em Samsung, LG, HTC e mais.</p><a href="https://wa.me/5511939432371?text=Olá!%20Tenho%20interesse%20na%20licença%20da%20Chimera%20Tool." target="_blank" class="bg-rose-500 w-full hover:bg-rose-600 text-white font-bold py-3 px-6 rounded-lg inline-block transition-colors mt-2">Comprar Licença</a></div></div></div></section>
+        
+        <!-- Seção de Serviços Extras -->
+        <section id="extra-services" class="py-24 bg-slate-950">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h3 class="text-3xl md:text-4xl font-bold text-white">Serviços Adicionais</h3>
+                    <p class="text-slate-400 mt-3 max-w-2xl mx-auto">Expandimos nossas soluções para atender outras necessidades tecnológicas e de informação.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <!-- Card: Consultas -->
+                    <div class="glass-card rounded-2xl p-8 flex flex-col text-center">
+                        <div class="bg-indigo-500/20 p-4 rounded-full mb-5 self-center">
+                           <i data-lucide="search-code" class="w-10 h-10 text-indigo-400"></i>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-3 text-white">Consultas de Dados</h4>
+                        <p class="text-slate-400 flex-grow">Serviços de consulta remota por nome, placa ou CPF. Obtenha informações de forma rápida e segura. Total sigilo e profissionalismo.</p>
+                        <div class="mt-6">
+                            <a href="https://wa.me/5511939432371?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20consulta." target="_blank" class="bg-indigo-600 w-full hover:bg-indigo-500 text-white font-bold py-3 px-6 rounded-lg inline-block transition-colors">Solicitar Consulta</a>
+                        </div>
+                    </div>
+
+                    <!-- Card: Criação de Sites -->
+                    <div class="glass-card rounded-2xl p-8 flex flex-col text-center">
+                        <div class="bg-indigo-500/20 p-4 rounded-full mb-5 self-center">
+                           <i data-lucide="gem" class="w-10 h-10 text-indigo-400"></i>
+                        </div>
+                         <h4 class="text-xl font-semibold mb-3 text-white">Criação de Sites (T.I.)</h4>
+                        <p class="text-slate-400 flex-grow">Precisa de um site profissional como este para o seu negócio? Criamos landing pages e sites institucionais com design moderno e otimizado.</p>
+                        <div class="mt-6">
+                             <a href="https://wa.me/5511939432371?text=Olá!%20Tenho%20interesse%20na%20criação%20de%20um%20site." target="_blank" class="bg-indigo-600 w-full hover:bg-indigo-500 text-white font-bold py-3 px-6 rounded-lg inline-block transition-colors">Pedir Orçamento</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Garantia -->
+        <section id="guarantee" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="glass-card rounded-2xl p-8 md:p-12 text-center max-w-4xl mx-auto">
+                     <div class="bg-green-500/20 p-4 rounded-full mb-6 inline-block">
+                        <i data-lucide="shield-check" class="w-10 h-10 text-green-400"></i>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-white">Nossa Garantia: Risco Zero Para Você</h3>
+                    <p class="text-slate-300 mt-4 text-lg">Temos total confiança na qualidade do nosso trabalho. Por isso, nossa política é simples e transparente: <strong class="text-white">se não for possível desbloquear o seu aparelho, você não paga absolutamente nada.</strong> Sua satisfação e segurança vêm em primeiro lugar.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Seção de Depoimentos -->
+        <section id="testimonials" class="py-24 bg-slate-950"><div class="container mx-auto px-6"><div class="text-center mb-16"><h3 class="text-3xl md:text-4xl font-bold text-white">O que nossos clientes dizem</h3><p class="text-slate-400 mt-3">Confiança e satisfação são a nossa prioridade.</p></div><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"><div class="glass-card rounded-2xl p-8 flex flex-col"><div class="flex text-amber-400 mb-4"><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i></div><p class="text-slate-300 mb-6 flex-grow">"Serviço incrivelmente rápido! Achei que meu celular já era, mas a equipe da DeliveryCellSP resolveu meu problema com a conta Google em menos de 1 hora. Super recomendo!"</p><div class="flex items-center mt-auto pt-4 border-t border-slate-700"><div class="w-12 h-12 rounded-full bg-indigo-500 text-white flex items-center justify-center font-bold text-lg">MS</div><div class="ml-4"><p class="font-semibold text-white">Mariana S.</p><p class="text-sm text-slate-400">Samsung S21</p></div></div></div><div class="glass-card rounded-2xl p-8 flex flex-col"><div class="flex text-amber-400 mb-4"><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i></div><p class="text-slate-300 mb-6 flex-grow">"Estava com meu Xiaomi travado na conta Mi e já sem esperanças. O atendimento foi super atencioso, me guiaram em todo o processo remoto e o desbloqueio foi um sucesso. Valeu cada centavo."</p><div class="flex items-center mt-auto pt-4 border-t border-slate-700"><div class="w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-bold text-lg">RL</div><div class="ml-4"><p class="font-semibold text-white">Ricardo L.</p><p class="text-sm text-slate-400">Xiaomi Poco X5</p></div></div></div><div class="glass-card rounded-2xl p-8 flex flex-col"><div class="flex text-amber-400 mb-4"><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i></div><p class="text-slate-300 mb-6 flex-grow">"Comprei uma licença da UnlockTool e a ativação foi quase instantânea. O suporte que me deram para tirar dúvidas foi excelente. Profissionalismo nota 10!"</p><div class="flex items-center mt-auto pt-4 border-t border-slate-700"><div class="w-12 h-12 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold text-lg">JP</div><div class="ml-4"><p class="font-semibold text-white">Juliana P.</p><p class="text-sm text-slate-400">Técnica de Celulares</p></div></div></div></div></div></section>
+
+        <!-- Seção de Dúvidas Frequentes (FAQ) -->
+        <section id="faq" class="py-24"><div class="container mx-auto px-6"><div class="text-center mb-16"><h3 class="text-3xl md:text-4xl font-bold text-white">Perguntas Frequentes</h3><p class="text-slate-400 mt-3">Tire suas principais dúvidas sobre nosso serviço.</p></div><div class="max-w-3xl mx-auto space-y-4"><details class="glass-card rounded-lg p-6 group cursor-pointer"><summary class="flex justify-between items-center font-semibold text-lg text-white">O acesso remoto ao meu computador é seguro?<i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300 group-open:rotate-180 text-slate-400"></i></summary><p class="text-slate-300 mt-4 pt-4 border-t border-slate-700">Sim, totalmente seguro. Utilizamos softwares de acesso remoto confiáveis como TeamViewer ou Anydesk, que geram uma senha de uso único. Você acompanha todo o procedimento na tela do seu computador e pode encerrar a conexão a qualquer momento. Nós só acessamos o que é estritamente necessário para o serviço.</p></details><details class="glass-card rounded-lg p-6 group cursor-pointer"><summary class="flex justify-between items-center font-semibold text-lg text-white">Como funciona o pagamento?<i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300 group-open:rotate-180 text-slate-400"></i></summary><p class="text-slate-300 mt-4 pt-4 border-t border-slate-700">O pagamento é realizado após a conclusão e o teste do serviço. Aceitamos PIX, transferência bancária e cartão de crédito (via link de pagamento). A confirmação do desbloqueio é feita antes de você pagar, garantindo sua total satisfação.</p></details><details class="glass-card rounded-lg p-6 group cursor-pointer"><summary class="flex justify-between items-center font-semibold text-lg text-white">E se o desbloqueio não for possível?<i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300 group-open:rotate-180 text-slate-400"></i></summary><p class="text-slate-300 mt-4 pt-4 border-t border-slate-700">Nossa política é clara: se não resolvermos o problema, você não paga nada. Analisamos cada caso previamente para garantir uma alta taxa de sucesso, mas se por alguma razão técnica o desbloqueio não for bem-sucedido, não haverá custo algum para você.</p></details></div></div></section>
+
+        <!-- Seção de Contato -->
+        <section id="contact" class="gradient-bg py-28"><div class="container mx-auto px-6 text-center"><h3 class="text-3xl md:text-4xl font-bold text-white">Pronto para ter seu celular de volta?</h3><p class="text-lg text-slate-300 max-w-2xl mx-auto my-5">Nossa equipe está pronta para te ajudar. Clique no botão abaixo para falar diretamente com um técnico e solicitar seu orçamento sem compromisso.</p><a href="https://wa.me/5511939432371?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." target="_blank" class="bg-green-500 hover:bg-green-600 transition-all text-white font-bold py-4 px-8 rounded-full text-lg inline-flex items-center gap-2 shadow-lg shadow-green-500/30 mt-4"><i data-lucide="send" class="w-6 h-6"></i>Falar com um Técnico Agora</a></div></section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-slate-950 text-center py-8 border-t border-slate-800">
+        <div class="container mx-auto px-6 text-slate-400">
+            <div class="flex justify-center items-center mb-4">
+                <!-- IMPORTANTE: Troque o '#' pelo link do seu perfil no Instagram -->
+                <a href="#" target="_blank" class="text-slate-400 hover:text-white transition-colors">
+                    <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </a>
+            </div>
+            <p>&copy; 2024 DeliveryCellSP. Todos os direitos reservados. | <a href="politica-de-privacidade.html" class="hover:text-white underline">Política de Privacidade</a></p>
+            <p class="text-sm mt-2">Os serviços de desbloqueio destinam-se a proprietários legítimos de dispositivos. Não removemos bloqueios de operadora ou de IMEI.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => { mobileMenu.classList.toggle('hidden'); });
+        const navLinks = document.querySelectorAll('#mobile-menu a, header nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                const isHomePageLink = link.pathname === window.location.pathname && link.hash !== "" && link.hash !== "#";
+                if (isHomePageLink) {
+                     if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                    return; // Deixa o scroll suave funcionar
+                }
+                 // Para links externos ou outras páginas, não previne o default
+            });
+        });
+    </script>
+</body>
+</html>
+
+
